@@ -6,11 +6,16 @@ A user can create an account and register. The user can choose one or many pizza
 Laravel
 Composer
 MySQL
-###### Steps
+### Steps
 Clone the project
 Create a new .env file using .env.exemple & settle Database
 
 On terminal :
+#
 ~ composer require laravel/sanctum
+#
+~ php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+#
 ~ php artisan migrate
+#
 ~ composer install
